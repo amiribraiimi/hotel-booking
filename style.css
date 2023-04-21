@@ -1,0 +1,419 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#fillimi {
+    height: 300px;
+    background-color: #008b8b;
+    align-items: center;
+    border-bottom: 3px solid black;
+    list-style-type: none;
+}
+
+#menuja {
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    left: 230px;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#menuja li:hover {
+    background-color: #017C7C;
+    border-radius: 30%;
+}
+
+#menuja ul {
+    text-decoration: none;
+    display: inline-flex;
+    list-style-type: none;
+    padding-bottom: 1px solid white;
+    font-size: large;
+}
+
+#menuja li {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+#accounticon {
+    position: relative;
+    top: -50px;
+    color: white;
+    padding: 2.44em;
+    left: 87%;
+}
+
+#searchBar {
+    outline: none;
+    height: 25px;
+    max-width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#header {
+    background-color: darkcyan;
+    color: white;
+}
+
+#acronymtitle {
+    position: relative;
+    left: 2.6%;
+    top: 12px;
+}
+
+#header h1 {
+    position: relative;
+    left: 2.6%;
+    top: 12px;
+}
+
+#teksti1 {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 50px;
+}
+
+#zgjidhLokacionin {
+    position: relative;
+    background-color: hsl(56, 56%, 51%);
+    width: 1000px;
+    height: 70px;
+    top: 128px;
+    left: 18%;
+    border: 3px solid black;
+}
+
+#zgjidhqytetininput {
+    position: relative;
+    height: 50px;
+    top: 10px;
+    left: 9px;
+    font-size: 18px;
+}
+
+#selectQytetin {
+    position: relative;
+    height: 50px;
+    top: 10px;
+    left: 9px;
+    font-size: 18px;
+}
+
+#dateInput {
+    position: relative;
+    height: 46px;
+    width: 220px;
+    top: 10px;
+    left: 9px;
+    font-size: 18px;
+}
+
+#locationArrow {
+    position: absolute;
+    top: 25px;
+    left: 21%;
+}
+
+#submitbtn {
+    position: relative;
+    width: 80px;
+    height: 50px;
+    top: -40px;
+    left: 725px;
+}
+
+#territur {
+    position: relative;
+    left: 17px;
+    top: -3px;
+}
+
+#femije {
+    position: relative;
+    left: 693px;
+    top: -27px;
+}
+
+#skopjepic {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 40px;
+}
+
+#tetovopic {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 40px;
+}
+
+#covidalert {
+    position: relative;
+    top: 70px;
+    left: 18%;
+    background-color: rgb(250, 244, 235);
+    width: 1000px;
+    height: 50px;
+    text-align: left;
+}
+
+#covidtext{
+    position: relative;
+    top: 14px;
+    left: 20px;
+    font: small;
+}
+
+#logoi {
+    position: absolute;
+    top: 0px;
+    left: 95%;
+}
+
+#hotelsection {
+    position: relative;
+    top: 70px;
+    left: 8%;
+    background-color: rgb(236, 235, 235);
+    border: 0.5px solid gray;
+    border-radius: 15px;
+    width: 800px;
+    height: 200px;
+    text-align: left;
+}
+
+#rezervobtn {
+    background-color: #4A85D8;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    position: relative;
+    left: 81%;
+    top: 15px;
+}
+
+#rezervobtn:hover {
+    background-color: darkblue;
+}
+
+#hoteldiv {
+    padding: 20px;
+}
+
+#hotelsection {
+    background-color: lightgray;
+}
+
+#hotelbody {
+    padding: 20px;
+    background-color: lightgray;
+}
+
+#hotelname {
+    padding: 5px;
+    font-size: 28px;
+}
+
+#hotelparagraf {
+    padding: 5px;
+}
+
+#hoteldistanca {
+    padding: 5px;
+    position: relative;
+    left: 30%;
+    top: -100px;
+    font-size: larger;
+}
+
+#cmimi {
+    padding: 5px;
+    position: relative;
+    left: 29.6%;
+    font-size: larger;
+    top: -80px;
+    color: red;
+}
+
+#codivtext {
+    font-size: x-large;
+}
+
+#virusPic {
+    width: 30%;
+    align-items: center;
+    position: relative;
+    left: 0px;
+}
+
+#covidTitulli {
+    color: green;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+#covidTxt {
+    background-color: lightgreen;
+    width: 2200px;
+    border: 3px solid black;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 20%;
+}
+
+#covidDiv{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#kupondiv {
+    padding: 30px;
+    position: relative;
+    left: 0.5%;
+    top: 60px;
+
+}
+
+#kuponInput {
+    width: 170px;
+    height: 30px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+#kuponbtn {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    top: -2px;
+}
+
+#kuponbtn:hover {
+    background-color: greenyellow;
+}
+
+#bodyhotel {
+    background-color: #008b8b;
+}
+
+#accountbody {
+    background-color: #008b8b;
+}
+
+#loginDiv {
+    position: relative;
+    top: 100px;
+    display: block;
+}
+
+#loginDiv input {
+    width: 300px;
+    height: 20px;
+    display: inherit;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#signuptxt {
+    color: white;
+    font-size: x-large;
+}
+
+#submitbtnacc {
+    width: 100px;
+    height: 35px;
+    background-color: hsl(56, 56%, 51%);
+    color: white;
+}
+
+#submitbtnacc:hover {
+    background-color: rgb(81, 81, 21);
+}
+#hotelFoto{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#hoteldiv {
+
+    position: relative;
+    top: 30px;
+    margin: 20px;
+    width: 60%;
+    height: 90%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+}
+#lokacioni{
+    position: relative;
+    font-size: large;
+    left: 29.4%;
+    top: -90px;
+}
+
+section h1{
+    position: relative;
+    left: 6%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    left: 35%;
+    top: 100px;
+}
+
+section input{
+    width: 30%;
+    height: 35px;
+    display: flex;
+    margin: 20px;
+    border-radius: 5px;
+}
+section button{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    left: 13%;
+}
+section button:hover{
+    background: yellow;
+}
+
+#perfundoText{
+    color: green;
+    position: relative;
+    left: 1.2%;
+}
+#checkoutbody{
+    background-color: rgb(230, 221, 221);
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7abd2068df.js" crossorigin="anonymous"></script>
+    <title>EZ-Boking</title>
+
+</head>
+
+<body>
+    <div id="header">
+        <!--         <acronym id="acronymtitle" title="Created by: Amir Ibraimi">EZ-booking</acronym>   -->
+        <h1>EZ-booking</h1>
+    </div>
+    <div id="fillimi">
+        <div id="menuja">
+            <ul>
+                <a href="index.html">
+                    <li> Home </li>
+                </a>
+                <!--
+                <a href="hotelet.html">
+                    <li> Hotelet </li>
+                </a>
+              
+                 <a href="meQira.html">
+                    <li> Makina me qira </li>
+                </a> -->
+            </ul>
+            <!--  <input type="text" name="serach" id="searchBar" placeholder="Kerko...">  -->
+        </div>
+        <a href="account.html"><i id="accounticon" class="fa fa-user" aria-hidden="true" >My account</i></a>
+
+        <div id="tekstet">
+            <h1 id="teksti1"> Shijo udhetimet dhe uljen e çmimeve ne te gjithe Maqedonine </h1>
+        </div>
+
+        <div id="zgjidhLokacionin">
+            <!--
+            <select name="selectQytetin" id="selectQytetin">
+                <option value="tetovo">Tetovo</option>
+                <option value="tetovo">Skopje</option>
+                <option value="tetovo">Gostivar</option>
+                <option value="tetovo">Ohrid</option>
+                <option value="tetovo">Struga</option>
+                <option value="tetovo">Kumanovo</option>
+            -->
+            </select>
+            <input id="zgjidhqytetininput" type="text" placeholder="Zgjidh qytetin">
+            <input id="dateInput" type="date"></input>
+            <input id="dateInput" type="date"></input>
+            <input id="territur" type="number" min="0" placeholder="Te rritur" value="">
+            <input id="femije" type="number" min="0" placeholder="Femije" value="">
+
+            <i id="locationArrow" class="fa fa-map-marker" aria-hidden="true"></i>
+            <button id="submitbtn" type="submit" onclick="zgjidhQytetin()"><a href="hotelet.html"> Kerko </a></button>
+        </div>
+
+
+
+    </div>
+
+    <!--
+    <div class="pics">
+        <a href="hotelet.html"> <img id="skopjepic" src="Skopje.jpeg" alt=""> </a>
+        <a href="hotelet.html"> <img id="tetovopic" src="tetovo.jpg" alt=""> </a>
+
+    </div>
+-->
+    <div id="covidalert">
+        <p id="covidtext"> Merrni këshillat që ju nevojiten. Kontrolloni kufizimet më të fundit për COVID-19 përpara se të udhëtoni. </p>
+
+        <a href="covid19.html"><img id="logoi" src="!.PNG"></a>
+    </div>
+
+    <!--
+
+    <div class="food-menu-desc">
+        <h4 id="name">traditional food</h4>
+        <p class="food-price" id="food-price1">$2.3</p>
+        <p class="food-detail">
+            Made with Italian Sauce, Chicken, and organice vegetables.
+        </p>
+        <br>
+
+        <a href="order.html" class="btn btn-primary">Rezervo</a>
+    </div>
+-->
+
+    <!-- <acronym title="amir ibraimi">EZ</acronym>-->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
